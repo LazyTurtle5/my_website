@@ -1,0 +1,104 @@
+* {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*********************************
+JUMBOTRON
+*********************************/
+
+.jumbotron {
+	background-image: url("../assets/images/cover-photo1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	display: flex;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.jumbo-content {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.heading h1 {
+	padding: 30px 0 0 0;
+	font-size: 3rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+.available a {
+	border: 2px solid yellow;
+	padding: 15px 25px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	color: #fff;
+	transition-property: padding, color, background-color;
+	transition-duration: 750ms;
+}
+
+.available a:hover {
+	background-color: yellow;
+	color: black;
+	padding: 15px 45px;
+}
+
+.learn-more {
+	display: flex;
+	flex-direction: column;
+}
+
+.learn-more a {
+	color: gray;
+	display: flex;
+	flex-direction: column;
+	transition-property: color;
+	transition-duration: 750ms;
+}
+
+.learn-more a:hover {
+	color: lightgray;
+}
+
+@media screen and (max-width: 992px) {
+	.heading h1 {
+	font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 565px) {
+	.heading h1 {
+	font-size: 2rem;
+	}
+
+	.jumbotron {
+		background-color: #15181b;
+		background-image: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
