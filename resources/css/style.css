@@ -42,7 +42,7 @@ JUMBOTRON
 }
 
 .available a {
-	border: 2px solid yellow;
+	border: 2px solid gold;
 	padding: 15px 25px;
 	border-radius: 100px;
 	text-transform: uppercase;
@@ -52,7 +52,7 @@ JUMBOTRON
 }
 
 .available a:hover {
-	background-color: yellow;
+	background-color: gold;
 	color: black;
 	padding: 15px 45px;
 }
@@ -117,6 +117,77 @@ SKILLS
 
 .html,.css,.javascript,.jquery {
 	padding: 10px; 
+}
+
+@media screen and (max-width: 768px) {
+	.skills {
+		flex-direction: column;
+	}
+}
+
+/*********************************
+MY PROJECTS
+*********************************/
+
+.work {
+	background-color: lightgray;
+}
+
+.my-projects {
+	padding: 30px 0;
+}
+
+.project {
+	padding: 30px 0;
+}
+
+.text-content,
+.image-content {
+	padding: 10px;
+}
+
+/*********************************
+FUTURE WORK
+*********************************/
+
+.future-work {
+	background-color: gold;
+	height: 350px;
+	display: flex;
+}
+
+.future-projects {
+	padding: 30px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.work-text {
+	padding: 30px 0;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.get-started {
+	text-align: center;
+}
+
+.get-started a {
+	border: 2px solid black;
+	padding: 15px 25px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	color: black;
+	transition-property: padding, color, background-color;
+	transition-duration: 750ms;
+}
+
+.get-started a:hover {
+	background-color: black;
+	color: gold;
+	padding: 15px 45px;
 }
 
 
