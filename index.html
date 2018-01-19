@@ -22,7 +22,7 @@
 					<h1>Hi, I'm Matt. I am a Junior Front End <br>Web Developer.</h1>
 				</div>
 				<div class="available">
-					<a href="#">Yes, I am available for hire</a>
+					<a href="#work">Yes, I am available for hire</a>
 				</div>
 				<div class="learn-more">
 					<a href="#">Learn more about what I do<i class="fa fa-angle-down fa-2x" aria-hidden="true"></i></a>
@@ -170,30 +170,32 @@
 
 		      <h3 class="col-md-12 text-center formtext py-4">Tell me about your project and I will get back to you as soon as I can</h3>
 		      <form id="contactform" method="post" name="contactform"  onsubmit="return false;">
-		        <div class="form-group pt-3">
+		      	<div class="row">
+		        <div class="form-group pt-3 col-md-6">
 		          <label class="sr-only pt-5" for="name">Name</label>
 		          <input type="text" class="form-control form-control-danger form-control-lg" name="name" id="Name" placeholder="Name">
 		        </div>
-		        <div class="form-group">
+		        <div class="form-group pt-3 col-md-6">
 		          <label class="sr-only" for="mail">Email</label>
 		          <input type="email" class="form-control form-control form-control-lg" name="email" id="mail" placeholder="Email">
 		        </div>
-		         <div class="form-group">
+		         <div class="form-group col-md-6">
 		          <label class="sr-only" for="phone">Phone Number</label>
 		          <input type="phone" class="form-control form-control form-control-lg" name="phone" id="phone" placeholder="Phone">
 		        </div>
-		        <div class="form-group">
+		        <div class="form-group col-md-6">
 		          <label class="sr-only" for="website">Website</label>
 		          <input type="phone" class="form-control form-control form-control-lg" name="website" id="website" placeholder="Website">
 		        </div>
-		        <div class="form-group">
+		        <div class="form-group tell-me col-md-12">
 		          <label class="sr-only" for="text">Tell me about your project</label>
-		          <input type="phone" class="form-control form-control form-control-lg" name="project" id="project" placeholder="Tell me about your project">
+		          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell me about your project..."></textarea>
 		        </div>
 
 		        <div class="modal-footer bg-carterjonas py-4">
-		          <button type="submit" class="btn btn-red btn-lg">Submit</button>
+		          <button type="submit" class="btn">Submit</button>
 		        </div>
+		    </div>
 		      </form>
 
 

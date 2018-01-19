@@ -191,6 +191,69 @@ FUTURE WORK
 }
 
 /*********************************
+MODAL
+*********************************/
+
+.modal {
+	padding-top: 70px;
+	color: lightgray;
+}
+
+.modal-content {
+	border: none;
+}
+
+.fade,
+.modal-content,
+.form-control {
+	background-color: #252a30;
+}
+
+.close {
+	color: lightgray;
+}
+
+.close:hover {
+	color: white;
+}
+
+.modal-body h3 {
+	font-size: 1.5rem;
+}
+
+input {
+	padding: .5rem;
+}
+
+.tell-me label,
+.tell-me input {
+	height: 150px;
+	padding: 0;
+}
+
+.modal-footer {
+	width: 100%;
+}
+
+.modal-footer button {
+	background-color: #252a30;
+	color: white;
+	padding: 15px 25px;
+	border: 2px solid gold;
+	text-transform: uppercase;
+	border-radius: 100px;
+	transition-property: padding, color, background-color;
+	transition-duration: 750ms;
+}
+
+.modal-footer button:hover {
+	background-color: gold;
+	color: #252a30;
+	padding: 15px 45px;
+}
+
+
+/*********************************
 FOOTER
 *********************************/
 
