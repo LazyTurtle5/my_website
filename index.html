@@ -142,13 +142,69 @@
 					<p>I'm currently accepting new projects and would love to hear about yours. <br>Please take a few minutes to tell me about it.</p>
 				</div><!-- /work-text -->
 				<div class="get-started">
-					<a href="#">Get Started</a>
+					<a href="#register" data-toggle="modal" data-target="#register">Get Started</a>
 				</div><!-- /get-started -->
 			</div><!-- future-projects -->
 		</div><!-- /container -->
 	</div><!-- /future-work -->
 
 	<!-- future work -->
+
+	<!-- FORM MODAL -->
+
+
+	<div id="register" class="modal fade">
+		<div class="modal-dialog modal-lg" role="document">
+		  <div class="modal-content">
+		    <div class="modal-header col-md-12">
+		      <img src="" alt="logo">
+		      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		        <span aria-hidden="true">&times;</span>
+		      </button>
+		    </div>
+		    <div class="modal-body">
+
+
+		      <!-- Registration -->
+
+
+		      <h3 class="col-md-12 text-center formtext py-4">Tell me about your project and I will get back to you as soon as I can</h3>
+		      <form id="contactform" method="post" name="contactform"  onsubmit="return false;">
+		        <div class="form-group pt-3">
+		          <label class="sr-only pt-5" for="name">Name</label>
+		          <input type="text" class="form-control form-control-danger form-control-lg" name="name" id="Name" placeholder="Name">
+		        </div>
+		        <div class="form-group">
+		          <label class="sr-only" for="mail">Email</label>
+		          <input type="email" class="form-control form-control form-control-lg" name="email" id="mail" placeholder="Email">
+		        </div>
+		         <div class="form-group">
+		          <label class="sr-only" for="phone">Phone Number</label>
+		          <input type="phone" class="form-control form-control form-control-lg" name="phone" id="phone" placeholder="Phone">
+		        </div>
+		        <div class="form-group">
+		          <label class="sr-only" for="website">Website</label>
+		          <input type="phone" class="form-control form-control form-control-lg" name="website" id="website" placeholder="Website">
+		        </div>
+		        <div class="form-group">
+		          <label class="sr-only" for="text">Tell me about your project</label>
+		          <input type="phone" class="form-control form-control form-control-lg" name="project" id="project" placeholder="Tell me about your project">
+		        </div>
+
+		        <div class="modal-footer bg-carterjonas py-4">
+		          <button type="submit" class="btn btn-red btn-lg">Submit</button>
+		        </div>
+		      </form>
+
+
+		    <!-- /Registration -->
+
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+
 	<footer>
 		<div class="container">
 			<div class="footer-logo">
