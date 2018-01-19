@@ -96,7 +96,7 @@ SKILLS
 *********************************/
 
 .my-skills {
-	padding: 60px 0;
+	padding: 70px 0;
 }
 
 .sub-header {
@@ -130,20 +130,49 @@ MY PROJECTS
 *********************************/
 
 .work {
-	background-color: lightgray;
+	background-color: #f3f3f3;
 }
 
 .my-projects {
-	padding: 60px 0;
+	padding: 70px 0;
+}
+
+.my-projects h2 {
+	padding-bottom: 70px;
 }
 
 .project {
 	padding: 30px 0;
+	background-color: #fff;
+	margin-bottom: 2%;
 }
 
 .text-content,
 .image-content {
 	padding: 10px;
+}
+
+.image-content img {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.col-md-4 {
+		margin-right: 2%;
+		max-width: 31.33333%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.project {
+		margin-bottom: 10%;
+	}
+}
+
+@media screen and (max-width: 565px) {
+	.project {
+		margin: 0 15px 10% 15px;
+	}
 }
 
 /*********************************
