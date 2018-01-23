@@ -1,5 +1,32 @@
+*{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+} 
+
+@font-face {
+    font-family: "Antonio-Light";
+    src: url('fonts/Antonio-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: "Antonio-Regular";
+    src: url('fonts/Antonio-Regular.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Antonio-Regular", Lato, sans-serif;
+}
+
+a, p, span {
+	font-family: 'Lato', sans-serif;
+}
+
+
 html {
 	font-size: 18px;
+	letter-spacing: .5px;
 }
 
 a {
